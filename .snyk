@@ -1,0 +1,60 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@testing-library/jest-dom > lodash':
+        patched: '2022-03-25T23:35:54.989Z'
+    - gulp-sass > lodash:
+        patched: '2022-03-25T23:35:54.989Z'
+    - gulp-uglify > lodash:
+        patched: '2022-03-25T23:35:54.989Z'
+    - eslint > lodash:
+        patched: '2022-03-25T23:35:54.989Z'
+    - '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2022-03-25T23:35:54.989Z'
+    - gulp-sass > node-sass > lodash:
+        patched: '2022-03-25T23:35:54.989Z'
+    - babel-eslint > @babel/traverse > lodash:
+        patched: '2022-03-25T23:35:54.989Z'
+    - eslint > inquirer > lodash:
+        patched: '2022-03-25T23:35:54.989Z'
+    - eslint > table > lodash:
+        patched: '2022-03-25T23:35:54.989Z'
+    - sass-lint > globule > lodash:
+        patched: '2022-03-25T23:35:54.989Z'
+    - sass-lint > eslint > lodash:
+        patched: '2022-03-25T23:35:54.989Z'
+    - '@babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > lodash':
+        patched: '2022-03-25T23:35:54.989Z'
+    - gulp-sass > node-sass > sass-graph > lodash:
+        patched: '2022-03-25T23:35:54.989Z'
+    - babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2022-03-25T23:35:54.989Z'
+    - babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T23:35:54.989Z'
+    - sass-lint > eslint > inquirer > lodash:
+        patched: '2022-03-25T23:35:54.989Z'
+    - sass-lint > eslint > table > lodash:
+        patched: '2022-03-25T23:35:54.989Z'
+    - '@babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > lodash':
+        patched: '2022-03-25T23:35:54.989Z'
+    - gulp-sass > node-sass > gaze > globule > lodash:
+        patched: '2022-03-25T23:35:54.989Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2022-03-25T23:35:54.989Z'
+    - jest > jest-cli > jest-config > @babel/core > lodash:
+        patched: '2022-03-25T23:35:54.989Z'
+    - '@babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/generator > lodash':
+        patched: '2022-03-25T23:35:54.989Z'
+    - jest > jest-cli > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2022-03-25T23:35:54.989Z'
+    - jest > jest-cli > @jest/core > jest-snapshot > @babel/types > lodash:
+        patched: '2022-03-25T23:35:54.989Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2022-03-25T23:35:54.989Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T23:35:54.989Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2022-03-25T23:35:54.989Z'

@@ -2,7 +2,9 @@
   "repository": "pypa/warehouse",
   "license": "Apache-2.0",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "jest": {
     "setupFilesAfterEnv": [
@@ -47,7 +49,8 @@
     "webpack": "^4.42.1",
     "webpack-stream": "^5.0.0",
     "whatwg-fetch": "2.0.3",
-    "zopflipng-bin": "5.0.0"
+    "zopflipng-bin": "5.0.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@testing-library/dom": "6.2.0",
@@ -94,5 +97,6 @@
         "always"
       ]
     }
-  }
+  },
+  "snyk": true
 }
