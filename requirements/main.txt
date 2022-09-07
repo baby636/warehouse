@@ -389,7 +389,7 @@ lxml==4.5.2 \
     --hash=sha256:ecc930ae559ea8a43377e8b60ca6f8d61ac532fc57efb915d899de4a67928efd \
     --hash=sha256:f161af26f596131b63b236372e4ce40f3167c1b5b5d459b29d2514bd8c9dc9ee \
     # via -r requirements/main.in, premailer
-mako==1.1.3 \
+mako==1.2.2 \
     --hash=sha256:8195c8c1400ceb53496064314c6736719c6f25e7479cd24c77be3d9361cddc27 \
     # via alembic
 markupsafe==1.1.1 \
