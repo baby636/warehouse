@@ -758,7 +758,7 @@ typeguard==2.9.1 \
     --hash=sha256:529ef3d88189cc457f4340388028412f71be8091c2c943465146d4170fb67288 \
     --hash=sha256:e258567e62d28f9a51d4f7c71f491154e9ef0889286ad2f37e3e22e4f668b21b \
     # via -r requirements/main.in
-urllib3==1.25.10 \
+urllib3==1.26.5 \
     --hash=sha256:91056c15fa70756691db97756772bb1eb9678fa585d9184f24534b100dc60f4a \
     --hash=sha256:e7983572181f5e1522d9c98453462384ee92a0be7fac5f1413a1e35c56cc0461 \
     # via botocore, elasticsearch, requests, sentry-sdk
@@ -864,3 +864,4 @@ setuptools==49.2.0 \
     --hash=sha256:272c7f48f5cddc5af5901f4265274c421c7eede5c8bc454ac2903d3f8fc365e9 \
     --hash=sha256:afe9e81fee0270d3f60d52608549cc8ec4c46dada8c95640c1a00160f577acf2 \
     # via -r requirements/main.in, google-api-core, google-auth, plaster, protobuf, pyramid, repoze.sendmail, zope.deprecation, zope.interface, zope.sqlalchemy
+celery>=5.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
