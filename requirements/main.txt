@@ -482,7 +482,7 @@ premailer==3.7.0 \
     --hash=sha256:5eec9603e84cee583a390de69c75192e50d76e38ef0292b027bd64923766aca7 \
     --hash=sha256:c7ac48986984a810afea5147bc8410a8fe0659bf52f357e78b28a1b949209b91 \
     # via -r requirements/main.in
-protobuf==3.12.2 \
+protobuf==3.18.3 \
     --hash=sha256:304e08440c4a41a0f3592d2a38934aad6919d692bb0edfb355548786728f9a5e \
     --hash=sha256:49ef8ab4c27812a89a76fa894fe7a08f42f2147078392c0dee51d4a444ef6df5 \
     --hash=sha256:50b5fee674878b14baea73b4568dc478c46a31dd50157a5b5d2f71138243b1a9 \
@@ -794,7 +794,7 @@ wtforms[email]==2.3.3 \
     --hash=sha256:7b504fc724d0d1d4d5d5c114e778ec88c37ea53144683e084215eed5155ada4c \
     --hash=sha256:81195de0ac94fbc8368abbaf9197b88c4f3ffd6c2719b5bf5fc9da744f3d829c \
     # via -r requirements/main.in
-yara-python==4.0.2 \
+yara-python==4.2.3 \
     --hash=sha256:2199f11e3f14dd176a4ccf3e9d46a366f9a8723cd95066eb4e22625d1774da3e \
     --hash=sha256:3843ffead5b88a62582173f74f7277c0765b1d60ae55583ab95b31361fc24715 \
     --hash=sha256:7c8fc1275c77551bdef057b5b5b243896ca21b42e15ed9416884bffe4bec584b \
