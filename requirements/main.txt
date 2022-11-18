@@ -163,7 +163,7 @@ cmarkgfm==0.4.2 \
     --hash=sha256:e8932bddf159064f04e946fbb64693753488de21586f20e840b3be51745c8c09 \
     --hash=sha256:f20900f16377f2109783ae9348d34bc80530808439591c3d3df73d5c7ef1a00c \
     # via readme-renderer
-cryptography==3.0 \
+cryptography==3.2 \
     --hash=sha256:0c608ff4d4adad9e39b5057de43657515c7da1ccb1807c3a27d4cf31fc923b4b \
     --hash=sha256:0cbfed8ea74631fe4de00630f4bb592dad564d57f73150d6f6796a24e76c76cd \
     --hash=sha256:124af7255ffc8e964d9ff26971b3a6153e1a8a220b9a685dc407976ecb27a06a \
@@ -758,7 +758,7 @@ typeguard==2.9.1 \
     --hash=sha256:529ef3d88189cc457f4340388028412f71be8091c2c943465146d4170fb67288 \
     --hash=sha256:e258567e62d28f9a51d4f7c71f491154e9ef0889286ad2f37e3e22e4f668b21b \
     # via -r requirements/main.in
-urllib3==1.25.10 \
+urllib3==1.26.5 \
     --hash=sha256:91056c15fa70756691db97756772bb1eb9678fa585d9184f24534b100dc60f4a \
     --hash=sha256:e7983572181f5e1522d9c98453462384ee92a0be7fac5f1413a1e35c56cc0461 \
     # via botocore, elasticsearch, requests, sentry-sdk
@@ -860,7 +860,7 @@ zxcvbn==4.4.28 \
     # via -r requirements/main.in
 
 # The following packages are considered to be unsafe in a requirements file:
-setuptools==49.2.0 \
+setuptools==65.5.1 \
     --hash=sha256:272c7f48f5cddc5af5901f4265274c421c7eede5c8bc454ac2903d3f8fc365e9 \
     --hash=sha256:afe9e81fee0270d3f60d52608549cc8ec4c46dada8c95640c1a00160f577acf2 \
     # via -r requirements/main.in, google-api-core, google-auth, plaster, protobuf, pyramid, repoze.sendmail, zope.deprecation, zope.interface, zope.sqlalchemy
