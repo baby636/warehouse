@@ -91,7 +91,7 @@ celery[sqs]==4.4.6 \
     --hash=sha256:ef17d7dffde7fc73ecab3a3b6389d93d3213bac53fa7f28e68e33647ad50b916 \
     --hash=sha256:fd77e4248bb1b7af5f7922dd8e81156f540306e3a5c4b1c24167c1f5f06025da \
     # via -r requirements/main.in, celery-redbeat
-certifi==2020.6.20 \
+certifi==2023.7.22 \
     --hash=sha256:5930595817496dd21bb8dc35dad090f1c2cd0adfaf21204bf6732ca5d8ee34d3 \
     --hash=sha256:8fc0819f1f30ba15bdb34cceffb9ef04d99f420f68eb75d901e9560b8749fc41 \
     # via -r requirements/main.in, requests, sentry-sdk
