@@ -17,7 +17,7 @@ bok-choy==1.1.1 \
     --hash=sha256:67e8a868d645d68cfc0d1d14fe2bf522f1508655242333a1161d748af1d02650 \
     --hash=sha256:aa807f7cd704699743761921c453df42fbb2f5424709b796e76246c27fdd018a \
     # via -r requirements/tests.in
-certifi==2020.6.20 \
+certifi==2023.7.22 \
     --hash=sha256:5930595817496dd21bb8dc35dad090f1c2cd0adfaf21204bf6732ca5d8ee34d3 \
     --hash=sha256:8fc0819f1f30ba15bdb34cceffb9ef04d99f420f68eb75d901e9560b8749fc41 \
     # via requests
