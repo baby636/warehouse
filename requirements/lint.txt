@@ -143,3 +143,4 @@ typed-ast==1.4.1 \
     --hash=sha256:fc0fea399acb12edbf8a628ba8d2312f583bdbdb3335635db062fa98cf71fca4 \
     --hash=sha256:fe460b922ec15dd205595c9b5b99e2f056fd98ae8f9f56b888e7a17dc2b757e7 \
     # via black
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
