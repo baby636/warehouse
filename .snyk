@@ -5,6 +5,6 @@ ignore: {}
 patch:
   SNYK-JS-LODASH-567746:
     - '@babel/core > lodash':
-        patched: '2026-02-03T15:06:20.515Z'
+        patched: '2026-02-11T06:47:41.360Z'
         id: SNYK-JS-LODASH-567746
         path: '@babel/core > lodash'
